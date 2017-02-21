@@ -7,7 +7,7 @@ var app = express();
 
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
-var users = require('./routes/users');
+var team = require('./routes/team');
 
 // Views
 app.set('views', path.join(__dirname, 'views'));
@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 app.engine('html', ejs.renderFile);
 
 app.use('/', index);
-app.use('/users', users);
+app.use('/team', team);
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
