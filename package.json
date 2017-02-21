@@ -1,0 +1,28 @@
+{
+  "name": "pgxstatus",
+  "version": "1.0.0",
+  "description": "Status Tool",
+  "main": "status.js",
+  "scripts": {
+    "test": "teststatus.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalaPanchatcharam/pgxstatus.git"
+  },
+  "keywords": [
+    "status"
+  ],
+  "author": "Bala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalaPanchatcharam/pgxstatus/issues"
+  },
+  "homepage": "https://github.com/BalaPanchatcharam/pgxstatus#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "mongojs": "^2.4.0"
+  }
+}
